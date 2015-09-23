@@ -1027,7 +1027,7 @@ ul.styled-list.list-star li:before {
   display: block;
   min-height: 100%;
   max-width: 100%;
-  opacity: 1;
+  opacity: 0.6;
   -webkit-transition: opacity 0.3s, -webkit-transform 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
           transition: opacity 0.3s, transform 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
@@ -1059,7 +1059,7 @@ ul.styled-list.list-star li:before {
   left: 30px;
   padding: 10px 0;
   top: 30px;
-  opacity: 0;
+  opacity: 1;
   -webkit-transition: -webkit-transform 0.35s, opacity 0.35s;
           transition: transform 0.35s, opacity 0.35s;
   -webkit-transform: translate3d(0, 20px, 0);
@@ -1076,7 +1076,7 @@ ul.styled-list.list-star li:before {
   content: '';
   -webkit-transform: translate3d(0, 40px, 0);
           transform: translate3d(0, 40px, 0);
-  opacity: 0;
+  opacity: 1;
   -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
           transition: opacity 0.35s, transform 0.35s;
 }
@@ -1095,7 +1095,7 @@ ul.styled-list.list-star li:before {
   line-height: 1.5;
   -webkit-transform: translate3d(0, 50px, 0);
           transform: translate3d(0, 50px, 0);
-  opacity: 0;
+  opacity: 1;
   -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
           transition: opacity 0.35s, transform 0.35s;
 }

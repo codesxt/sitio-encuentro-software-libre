@@ -1066,6 +1066,7 @@ ul.styled-list.list-star li:before {
           transform: translate3d(0, 20px, 0);
 }
 .grid figure h2::after {
+  /*
   position: absolute;
   top: 100%;
   left: 50%;
@@ -1079,6 +1080,7 @@ ul.styled-list.list-star li:before {
   opacity: 1;
   -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
           transition: opacity 0.35s, transform 0.35s;
+  */
 }
 .grid figure h2 span {
   font-weight: 800;

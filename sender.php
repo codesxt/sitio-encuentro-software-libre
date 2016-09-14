@@ -8,7 +8,7 @@
  */
 
 $to = 'bcastro@ucm.cl';
-$siteName = "ENCUENTRO LINUX UCM 2015";
+$siteName = "ENCUENTRO LINUX UCM 2016";
 
 /*
  *************************************************************
